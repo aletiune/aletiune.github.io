@@ -21,17 +21,19 @@ html {
 
 /*-----------------MAIN------------------*/
 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Playfair+Display&family=Roboto+Mono:wght@100&display=swap');
+
 body {
   /*colors*/
-  background-color:rgb(126, 126, 126);
-  color:rgb(0, 0, 0)!;
+  background-color:rgb(255, 255, 255);
   
   /*text*/
-  font-size: 1.30em;
+  font-size: 1em;
   letter-spacing: 0.16em;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Josefin Slab', serif;
+  /*font-family: 'Roboto Mono', monospace;*/
+  /*font-family: 'Playfair Display', serif;*/
   letter-spacing: 0.1em;
-  /*font-weight:bold;*/
   
   /*spacing*/
   margin: 0px; /*for top bar*/
@@ -40,7 +42,7 @@ body {
 
 
 a:visited, a:link, a:active {
-  color: #000000;
+  color:rgb(156, 156, 156);
   text-decoration: none;
   transition: ease-in-out 0.5s;
 }
@@ -52,7 +54,6 @@ a:hover {
 
 
 /*-----------------BOOTSTRAP------------------*/
-
 
 a,
 a:hover,
@@ -84,14 +85,24 @@ a:focus {
   margin: 40px 0;
 }
 
+.btn {
+  background-color: rgb(214, 214, 214);
+  color:white;
+}
+
+.active {
+  color:white;
+}
+
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
 .text-sidebar {
-  color: #6b6b6b;
+  color:rgb(156, 156, 156); /* gets overwritten */
 }
 
 .wrapper {
+  color:rgb(156, 156, 156);
   display: flex;
   width: 100%;
   align-items: stretch;
@@ -101,7 +112,7 @@ a:focus {
   min-width: 200px;
   max-width: 200px;
   background: #ffffff;
-  color: #6b6b6b;
+  color:rgb(156, 156, 156);
   transition: all 0.3s;
 }
 
@@ -116,11 +127,11 @@ a:focus {
 
 #sidebar ul.components {
   padding: 20px 0;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid rgb(156, 156, 156);;
 }
 
 #sidebar ul p {
-  color: #6b6b6b;
+  color:rgb(156, 156, 156);
   padding: 10px;
 }
 
@@ -131,12 +142,12 @@ a:focus {
 }
 
 #sidebar ul li a:hover {
-  color: #ffffff;
-  background: #6b6b6b;
+  color: rgb(255, 225, 234);
+  text-shadow: -0.09em 0 0.5px rgba(255, 235, 246, 0.9);
 }
 
 #sidebar ul li.active > a, a[aria-expanded=true] {
-  color: #6b6b6b;
+  color:rgb(156, 156, 156);
   background: #ffffff;
 }
 
@@ -171,14 +182,14 @@ ul.CTAs a {
 }
 
 a.download {
-  background: #6b6b6b;
-  color: #ffcc19;
+  background: rgb(156, 156, 156);
+  color: #ffffff;
 }
 
 a.article,
 a.article:hover {
-  background: #e5b200 !important;
-  color: #6b6b6b !important;
+  background: #ffffff !important;
+  color: rgb(156, 156, 156) !important;
 }
 
 /* ---------------------------------------------------
