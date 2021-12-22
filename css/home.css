@@ -90,6 +90,10 @@ a:focus {
   color:white;
 }
 
+.navbar-nav {
+  color:white;
+}
+
 .active {
   color:white;
 }
@@ -121,12 +125,13 @@ a:focus {
 }
 
 #sidebar .sidebar-header {
-  padding: 20px;
+  padding-top: 20px;
+  text-align: right;
   background: #ffffff;
 }
 
 #sidebar ul.components {
-  padding: 20px 0;
+  padding: 10px 0;
   border-bottom: 1px solid rgb(156, 156, 156);;
 }
 
@@ -137,7 +142,7 @@ a:focus {
 
 #sidebar ul li a {
   padding: 10px;
-  font-size: 1.1em;
+  font-size: 1em;
   display: block;
 }
 
