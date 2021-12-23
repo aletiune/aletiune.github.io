@@ -207,6 +207,11 @@ a.article:hover {
   transition: all 0.3s;
 }
 
+.widthy {
+  margin-left:80px;
+  margin-right:80px;
+}
+
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
@@ -225,6 +230,11 @@ a.article:hover {
 
   #sidebar {
     display: none;
+  }
+
+  .widthy {
+    margin-left:15px;
+    margin-right:15px;
   }
 }
 
