@@ -247,6 +247,12 @@ a:hover{
   }
 }
 
+@media (max-width: 490px) {
+  .banner {
+    width: 400px;
+  }
+}
+
 
 @media (max-width: 768px) {
   #sidebar {
