@@ -241,13 +241,13 @@ a:hover{
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 630px) {
   .banner {
     width: 470px;
   }
 }
 
-@media (max-width: 490px) {
+@media (max-width: 520px) {
   .banner {
     width: 400px;
   }

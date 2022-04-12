@@ -216,6 +216,11 @@ a.article:hover {
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
+iframe {
+  width: 1000px;
+  height: 450px;
+}
+
 .transcript {
   color:rgb(196, 196, 196);
   font-size:.9em;
@@ -233,23 +238,39 @@ a:hover{
   .banner {
     width: 800px;
   }
+  iframe {
+    width: 800px;
+    height: 400px;
+  }
 }
 
 @media (max-width: 1000px) {
   .banner {
     width: 600px;
   }
-}
-
-@media (max-width: 600px) {
-  .banner {
-    width: 470px;
+  iframe {
+    width: 600px;
+    height: 300px;
   }
 }
 
-@media (max-width: 490px) {
+@media (max-width: 630px) {
+  .banner {
+    width: 470px;
+  }
+  iframe {
+    width: 470px;
+    height: 235px;
+  }
+}
+
+@media (max-width: 520px) {
   .banner {
     width: 400px;
+  }
+  iframe {
+    width: 400px;
+    height: 200px;
   }
 }
 
